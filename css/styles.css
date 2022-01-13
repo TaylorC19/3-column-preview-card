@@ -1,0 +1,99 @@
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 85px;
+}
+
+.left-container {
+  background-color: hsl(31, 77%, 52%);
+  width: 15%;
+  padding: 50px 40px;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  left: 5px;
+  text-align: left;
+}
+
+.middle-container {
+  background-color: hsl(184, 100%, 22%);
+  width: 15%;
+  padding: 50px 40px;
+  display: inline-block;
+  height: 100%;
+  text-align: left;
+}
+
+.middle-container p{
+  padding-bottom: 104px;
+
+}
+
+.right-container {
+  background-color: hsl(179, 100%, 13%);
+  width: 15%;
+  padding: 50px 40px;
+  display: inline-block;
+  height: 100%;
+  right: 5px;
+  position: relative;
+  text-align: left;
+}
+
+.btn {
+  background: hsl(0, 0%, 95%);
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.left-button {
+  color: hsl(31, 77%, 52%);
+}
+
+.middle-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.right-button {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.types {
+text-align: center;
+margin: 200px 0;
+position: absolute;
+}
